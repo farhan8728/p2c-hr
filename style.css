@@ -1,0 +1,157 @@
+:root{
+    --navbar-border-color: #ebeae7;
+    --parrot-color:#73c41d;
+}
+
+body{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+.header-part{
+    border-bottom: 2px solid var(--navbar-border-color);
+    background-color: #fff;
+}
+.log-in{
+    border: 2px solid var(--parrot-color);
+    border-radius: 8px;
+    padding: 5px;
+    
+}
+.log-in-item{
+    color: var(--parrot-color);
+    font-weight: 700;
+}
+.log-in-item:hover{
+    color: var(--parrot-color);
+}
+.take-free{
+    background-color: var(--parrot-color);
+    
+    border-radius: 10px;
+    padding: 8px;
+    margin-left: 10px;
+}
+
+.take-free-item{
+    color: #fff;
+    font-weight: 700;
+}
+
+.take-free-item:hover{
+    color:#fff !important;
+}
+
+.header-number{
+    color: var(--parrot-color) !important;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+.header-body-left-part{
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(98,188,51,1) 0%, rgba(95,228,26,1) 0%, rgba(40,151,55,1) 57%, rgba(40,151,55,1) 100%);
+    /* width: 100%; */
+    
+}
+.header-body-right-part{
+    background-color: #fff;
+    /* width: 100%; */
+    
+}
+.header-body-part{
+    background-image: url('./images/top-background-desktop-min.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.feel-free{
+   font-size: 2.8rem;
+   color: #fff;
+   padding-top: 1rem;
+}
+.header-create{
+    color: #fff;
+    padding-top: 1rem;
+}
+
+.get-demo{
+    color: #005a59;
+    background-color: #d5fe81;
+    border-radius: .625rem;
+    text-align: center;
+    font-weight: 700;
+}
+.get-demo:hover{
+    color:#005a59;
+}
+.try-free{
+    border: 2px solid #d5fe81;
+    color: #d5fe81;
+    font-weight: 700;
+    text-align: center;
+    border-radius: .625rem;
+}
+.try-free:hover{
+    color: #d5fe81;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+    display: none;
+}
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    margin-right: 196px;
+    
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #73c41d;
+}
+.owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #fff;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+}
+.item{
+    color: #fff;
+}
+@media screen and (max-width:767px) {
+    .log-in{
+        width:100px;
+        text-align: center;
+    }
+    .take-free{
+        margin-top: 1rem;
+        width: 120px;
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .log-in{
+        width:100px;
+        text-align: center;
+    }
+    .take-free{
+        margin-top: 1rem;
+        width: 120px;
+        margin-left: 0;
+        text-align: center;
+    }
+}
