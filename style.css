@@ -140,6 +140,23 @@ a{
         margin-left: 0;
         text-align: center;
     }
+    .feel-free{
+        font-size: 18px;
+    }
+    .header-create{
+        font-size: 12px;
+    }
+    .get-demo,.try-free{
+        width: 150px;
+        font-size: 12px;
+        margin-top: -10px !important;
+    }
+    .try-free{
+        margin-top: 10px !important;
+    }
+    .owl-navbar{
+        display: none;
+    }
 }
 
 
@@ -154,4 +171,46 @@ a{
         margin-left: 0;
         text-align: center;
     }
+    .header-create{
+        font-size: 12px;
+    }
+    .get-demo,.try-free{
+        width: 150px;
+        font-size: 12px;
+        
+    }
+   
+    .feel-free{
+        font-size: 18px;
+    }
+    .owl-navbar h4{
+        font-size: 18px;
+    }
+    .owl-theme .owl-dots, .owl-theme .owl-nav{
+        margin-right: 30px;
+    }
+}
+
+
+@media screen and (min-width:992px) and (max-width:1199px){
+    .feel-free{
+        font-size: 2.2rem;
+    }
+    .header-create{
+        font-size: px;
+    }    
+}
+
+
+@media screen and (min-width:1200px) and (max-width:1919px){
+    .feel-free{
+        padding-top: 90px;
+    }    
+}
+
+@media screen and (min-width:1920px){
+    .feel-free{
+        padding-top: 90px;
+        font-size: 4rem;
+    }    
 }
