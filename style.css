@@ -216,6 +216,17 @@ a{
     text-align: justify;
     font-size: 14px;
 }
+.love-how h3{
+    color: #1d9336;
+    line-height: 40px;
+    text-align: justify;
+    padding-top: 82px;
+}
+.love-how p{
+    color: #1d9336;
+    font-size: 1rem;
+    font-weight: 700;
+}
 @media screen and (max-width:767px){
     .header-body{
         
@@ -283,6 +294,9 @@ a{
     .hiring h2{
         font-size: 2rem;
     }
+    .love-how h3{
+        padding-top: 0;
+    }
 }
 
 
@@ -330,6 +344,9 @@ a{
         margin: 0 auto;
         display: block;
     }
+    .love-how h3{
+        padding-top: 0;
+    }
 }
 
 @media screen and (min-width:1250px) and (max-width:1919px){
@@ -339,6 +356,10 @@ a{
     .people-data-p{
         font-size: 1.2rem;
         padding-top: 20px;
+    }
+    .love-how h3{
+        padding-top: 175px;
+        padding-right: 10px;
     }
 }
 
@@ -375,5 +396,12 @@ a{
     }
     .feature p{
         font-size: 16px;
+    }
+    .hiring p{
+        padding-right: 100px;
+    }
+    .love-how h3{
+        padding-top: 180px;
+        padding-right: 1rem;
     }
 }
