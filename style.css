@@ -253,6 +253,28 @@ a{
     padding-top: 1.5rem;
     text-align: justify;
 }
+
+.panda{
+    background-color: #219535;
+}
+.strat-free-trial{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(98,188,51,1) 0%, rgba(227,251,180,1) 0%, rgba(192,240,109,1) 55%, rgba(184,235,95,1) 100%);
+    padding: 16px;
+    color: #004c39;
+    font-weight: 700;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    margin-top: 25px;
+}
+.panda h1{
+    color: #d5fe81;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.strat-free-trial:hover{
+    color: #004c39;
+}
 @media screen and (max-width:767px){
     .header-body{
         
@@ -322,6 +344,9 @@ a{
     }
     .love-how h3{
         padding-top: 0;
+    }
+    .panda img{
+        margin-top: 1.4rem;
     }
 }
 
