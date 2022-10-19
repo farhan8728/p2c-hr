@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Slabo+27px&display=swap');
+
 :root{
     --navbar-border-color: #ebeae7;
     --parrot-color:#73c41d;
+    --get-demo-back-color:#d5fe81;
 }
 
 body{
@@ -58,12 +61,37 @@ a{
     height: 200vh;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-top: 1rem;
 }
-
-
+.header-feel{
+    font-family: 'Slabo 27px', serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 3rem;
+}
+.header-create{
+    color: #fff;
+    margin-top: 1rem;
+}
+.get-demo{
+    background-color: var(--get-demo-back-color);
+    padding: .675rem;
+    color: #004c39;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: .675rem;
+}
+.try-free{
+    border: 2px solid var(--get-demo-back-color);
+    color: var(--get-demo-back-color);
+    border-radius: 10px;
+    padding: .675rem;
+    text-align: center;
+    margin-top: .675rem;
+}
 @media screen and (max-width:767px){
     .header-body{
-        background-position: center;
+        
     }
     /* menu-start */
     .log-in{
@@ -77,6 +105,16 @@ a{
         text-align: center;
     } 
     /* menu-end */
+
+
+    /* header-body */
+    .header-feel{
+        font-size: 2rem;
+    }
+    .header-create{
+        font-size: 1.2rem;
+        text-align: justify;
+    }
        
 }
 
@@ -97,7 +135,7 @@ a{
     /* menu-end */
 
     .header-body{
-        background-position: center;
+        
     }
 }
 
