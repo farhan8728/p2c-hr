@@ -126,6 +126,7 @@ a{
     font-weight: 700;
     font-family: 'Slabo 27px', serif;
     font-size: 3rem;
+    padding-top: 150px;
 }
 .get-the{
     color: #000 !important;
@@ -154,6 +155,42 @@ a{
     text-align: center;
     border-radius: 10px;
 }
+
+.imaging-h1{
+    color: #29993e;
+    font-weight: 700;
+    font-size: 2.8rem;
+    font-family: 'Slabo 27px', serif;
+}
+.imaging-hr{
+    color: #000 !important;
+    font-size: 14px;
+}
+.people-data-p{
+    color: #000;
+    text-align: justify;
+}
+.people-data{
+    background-image: url('./images/2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.employee-records a{
+    color: #004c39;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.image-four h6{
+    color: #73c41d;
+}
+
+
+
+
+
 @media screen and (max-width:767px){
     .header-body{
         
@@ -190,7 +227,7 @@ a{
 
     .let-us {
         color: #fff;
-        margin-top: -91px;
+        margin-top: -180px;
         font-size: 22px;
     }
     .get-the{
@@ -202,7 +239,15 @@ a{
     } 
     .hr-hard{
         padding-top: 1.5rem;
-    }  
+    }
+    .imaging-h1{
+        font-size: 25px;
+    }
+
+    .reporting{
+        padding-left: 1rem;
+        padding-top: 10px;
+    }
 }
 
 
@@ -225,10 +270,19 @@ a{
         
     }
     .let-us{
-        padding-top: 350px;
+        color: #fff;
+        margin-top: -200px;
+        font-size: 40px;
+    }
+    .get-the{
+        color: #fff !important;
     }
     .hr-hard{
         padding-top: 1.5rem;
+    }
+    .reporting{
+        padding-left: 1rem;
+        padding-top: 10px;
     }
 }
 
@@ -253,5 +307,12 @@ a{
     }
     .hr-hard-p{
         font-size: 1rem;
+    }
+    .people-data-p{
+        font-size: 1.4rem;
+    }
+    .reporting{
+        padding-left: 1rem;
+        
     }
 }
