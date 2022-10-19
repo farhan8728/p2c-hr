@@ -204,7 +204,18 @@ a{
     font-weight: 700;
     padding-top: 1rem;
 }
-
+.hiring h2{
+    color: #29993e;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.hiring p{
+    color: #000;
+}
+.hiring-p{
+    text-align: justify;
+    font-size: 14px;
+}
 @media screen and (max-width:767px){
     .header-body{
         
@@ -268,6 +279,9 @@ a{
     }
     .feature p{
         font-size: 12px;
+    }
+    .hiring h2{
+        font-size: 2rem;
     }
 }
 
