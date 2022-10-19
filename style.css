@@ -72,6 +72,7 @@ a{
 .header-create{
     color: #fff;
     margin-top: 1rem;
+    
 }
 .get-demo{
     background-color: var(--get-demo-back-color);
@@ -88,6 +89,32 @@ a{
     padding: .675rem;
     text-align: center;
     margin-top: .675rem;
+}
+
+.owl-carousel .item h4,p{
+    color: #fff;
+}
+.bi-alexa{
+    color: var(--get-demo-back-color);
+}
+.owl-carousel .item a{
+    color:var(--get-demo-back-color);
+    text-decoration: underline;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+    display: none;
+}
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+    margin-right: 130px;
+    margin-top: 1.5rem;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: var(--parrot-color);
+    
+}
+.owl-theme .owl-dots .owl-dot span {
+    background: #fff;
+    
 }
 @media screen and (max-width:767px){
     .header-body{
