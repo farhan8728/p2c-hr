@@ -58,7 +58,7 @@ a{
 .header-body{
     background-image: url('./images/top-background-desktop-min.jpg');
     width: 100%;
-    height: 200vh;
+    padding-bottom: 2rem;
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 1rem;
@@ -117,6 +117,43 @@ a{
     background: #fff;
     
 }
+/* header-body-end */
+
+
+.let-us{
+    text-align: center;
+    color: #1d9336;
+    font-weight: 700;
+    font-family: 'Slabo 27px', serif;
+    font-size: 3rem;
+}
+.get-the{
+    color: #000 !important;
+    font-size: 1.2rem;
+}
+.img-let-us{
+    box-shadow: 1px 9px 15px 1px rgba(148,148,148,0.75);
+-webkit-box-shadow: 1px 9px 15px 1px rgba(148,148,148,0.75);
+-moz-box-shadow: 1px 9px 15px 1px rgba(148,148,148,0.75);
+}
+.hr-hard{
+    color: #626467;
+    font-weight: 700;
+    font-family: 'Slabo 27px', serif;
+}
+.hr-hard-p{
+    color: #000;
+    font-size: 14px;
+}
+.take-vedio-tour{
+    background: rgb(2,0,36);
+    background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(98,188,51,1) 0%, rgba(95,228,26,1) 0%, rgba(40,151,55,1) 57%, rgba(40,151,55,1) 100%);
+    color: #fff;
+    width:250px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
 @media screen and (max-width:767px){
     .header-body{
         
@@ -147,7 +184,25 @@ a{
         margin-right: 250px;
         margin-top: 1.5rem;
     }
-       
+    
+
+
+
+    .let-us {
+        color: #fff;
+        margin-top: -91px;
+        font-size: 22px;
+    }
+    .get-the{
+        font-size: 12px;
+        color: #fff !important;
+    }
+    .img-let-us{
+        padding-top: 10px;
+    } 
+    .hr-hard{
+        padding-top: 1.5rem;
+    }  
 }
 
 
@@ -169,6 +224,12 @@ a{
     .header-body{
         
     }
+    .let-us{
+        padding-top: 350px;
+    }
+    .hr-hard{
+        padding-top: 1.5rem;
+    }
 }
 
 
@@ -183,5 +244,14 @@ a{
     }
     .owl-carousel .item p{
         font-size: 13px;
+    }
+    .let-us{
+        margin-top: 160px;
+    }
+    .hr-hard{
+        padding-top: 10px;
+    }
+    .hr-hard-p{
+        font-size: 1rem;
     }
 }
