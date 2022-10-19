@@ -97,16 +97,17 @@ a{
 .bi-alexa{
     color: var(--get-demo-back-color);
 }
-.owl-carousel .item a{
+.owl-carousel .item h5{
     color:var(--get-demo-back-color);
     text-decoration: underline;
+    cursor: pointer;
 }
 .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
     display: none;
 }
 .owl-theme .owl-dots, .owl-theme .owl-nav {
     margin-right: 130px;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background: var(--parrot-color);
@@ -142,6 +143,10 @@ a{
         font-size: 1.2rem;
         text-align: justify;
     }
+    .owl-theme .owl-dots, .owl-theme .owl-nav {
+        margin-right: 250px;
+        margin-top: 1.5rem;
+    }
        
 }
 
@@ -167,3 +172,16 @@ a{
 }
 
 
+
+@media screen and (min-width:1920px){
+    .header-feel{
+        padding-top: 4rem;
+        font-size: 3.5rem;
+    }
+    .header-create{
+        font-size: 2.4rem;
+    }
+    .owl-carousel .item p{
+        font-size: 13px;
+    }
+}
