@@ -218,7 +218,7 @@ a{
 }
 .love-how h3{
     color: #1d9336;
-    line-height: 40px;
+    line-height: 30px;
     text-align: justify;
     padding-top: 82px;
 }
@@ -226,6 +226,32 @@ a{
     color: #1d9336;
     font-size: 1rem;
     font-weight: 700;
+}
+
+
+.compensation-h1{
+    text-align: center;
+    color: #29993e;
+    font-weight: 700;
+}
+.compensation-p{
+    color: #000;
+    margin-top: 10px;
+    text-align: justify;
+    font-size: 1rem;
+}
+.three-img a{
+    font-size: 14px;
+    color:#1d9336;
+    font-weight: 700;
+    
+}
+.culture p{
+    color: #000;
+    font-size: 1rem;
+    line-height: 30px;
+    padding-top: 1.5rem;
+    text-align: justify;
 }
 @media screen and (max-width:767px){
     .header-body{
@@ -345,7 +371,8 @@ a{
         display: block;
     }
     .love-how h3{
-        padding-top: 0;
+        padding-top: 40px;
+        font-size: 1.3rem;
     }
 }
 
@@ -360,6 +387,14 @@ a{
     .love-how h3{
         padding-top: 175px;
         padding-right: 10px;
+    }
+    .compensation-p{
+        font-size: 1.4rem;
+        
+    }
+    .culture p{
+        font-size: 1.4rem;
+        padding-top: 70px;
     }
 }
 
@@ -403,5 +438,13 @@ a{
     .love-how h3{
         padding-top: 180px;
         padding-right: 1rem;
+    }
+    .compensation-p{
+        font-size: 1.4rem;
+        
+    }
+    .culture p{
+        font-size: 1.4rem;
+        padding-top: 70px;
     }
 }
